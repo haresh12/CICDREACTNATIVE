@@ -78,6 +78,7 @@ function App(): JSX.Element {
       <Text style={styles.resultText}>Inflation Rate: {inflationRate}%</Text>
       <Text style={styles.resultText}>Change 1 {inflationRate}%</Text>
       <Text style={styles.resultText}>Change 2 {inflationRate}%</Text>
+      <Text style={styles.resultText}>Change 3 {inflationRate}%</Text>
 
     </View>
   );
