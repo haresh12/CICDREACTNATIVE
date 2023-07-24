@@ -76,6 +76,8 @@ function App(): JSX.Element {
         <Text style={styles.calculateButtonText}>Calculate</Text>
       </TouchableOpacity>
       <Text style={styles.resultText}>Inflation Rate: {inflationRate}%</Text>
+      <Text style={styles.resultText}>Change 1 {inflationRate}%</Text>
+
     </View>
   );
 }
